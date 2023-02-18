@@ -1,0 +1,86 @@
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<link href="https://feds.lol/assets/images/favicon.ico" rel="icon" type="image/x-icon">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" rel="stylesheet">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>404 - feds.lol</title>
+<script defer="" referrerpolicy="origin" src="/ventryshield/contents.js?z=JTdCJTIyZXhlY3V0ZWQlMjIlM0ElNUIlNUQlMkMlMjJ0JTIyJTNBJTIyNDA0JTIwLSUyMGZlZHMubG9sJTIyJTJDJTIyeCUyMiUzQTAuMDc2NjE3MjYzNTc2MDMyNDklMkMlMjJ3JTIyJTNBMzQ0MCUyQyUyMmglMjIlM0ExNDQwJTJDJTIyaiUyMiUzQTEzMTMlMkMlMjJlJTIyJTNBMzM5MyUyQyUyMmwlMjIlM0ElMjJodHRwcyUzQSUyRiUyRmZlZHMubG9sJTJGZG9lc250X2V4aXN0JTIyJTJDJTIyciUyMiUzQSUyMmh0dHBzJTNBJTJGJTJGZmVkcy5sb2wlMkZzdGFmZiUyMiUyQyUyMmslMjIlM0EyNCUyQyUyMm4lMjIlM0ElMjJVVEYtOCUyMiUyQyUyMm8lMjIlM0EzMDAlMkMlMjJxJTIyJTNBJTVCJTVEJTdE"></script><script nonce="d5b996ca-331a-46af-9fd8-764901a374c3">(function(w,d){!function(f,g,h,i){f[h]=f[h]||{};f[h].executed=[];f.zaraz={deferred:[],listeners:[]};f.zaraz.q=[];f.zaraz._f=function(j){return function(){var k=Array.prototype.slice.call(arguments);f.zaraz.q.push({m:j,a:k})}};for(const l of["track","set","debug"])f.zaraz[l]=f.zaraz._f(l);f.zaraz.init=()=>{var m=g.getElementsByTagName(i)[0],n=g.createElement(i),o=g.getElementsByTagName("title")[0];o&&(f[h].t=g.getElementsByTagName("title")[0].text);f[h].x=Math.random();f[h].w=f.screen.width;f[h].h=f.screen.height;f[h].j=f.innerHeight;f[h].e=f.innerWidth;f[h].l=f.location.href;f[h].r=g.referrer;f[h].k=f.screen.colorDepth;f[h].n=g.characterSet;f[h].o=(new Date).getTimezoneOffset();if(f.dataLayer)for(const s of Object.entries(Object.entries(dataLayer).reduce(((t,u)=>({...t[1],...u[1]})))))zaraz.set(s[0],s[1],{scope:"page"});f[h].q=[];for(;f.zaraz.q.length;){const v=f.zaraz.q.shift();f[h].q.push(v)}n.defer=!0;for(const w of[localStorage,sessionStorage])Object.keys(w||{}).filter((y=>y.startsWith("_zaraz_"))).forEach((x=>{try{f[h]["z_"+x.slice(7)]=JSON.parse(w.getItem(x))}catch{f[h]["z_"+x.slice(7)]=w.getItem(x)}}));n.referrerPolicy="origin";n.src="/ventryshield/contents.js?z="+btoa(encodeURIComponent(JSON.stringify(f[h])));m.parentNode.insertBefore(n,m)};["complete","interactive"].includes(g.readyState)?zaraz.init():f.addEventListener("DOMContentLoaded",zaraz.init)}(w,d,"zarazData","script");})(window,document);</script><style>
+    @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    html,
+    body {
+        display: grid;
+        height: 100%;
+        width: 100%;
+        place-items: center;
+        background: linear-gradient(315deg, #000000 0%, #161616 74%);
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .title .owner {
+        color: white;
+    }
+
+    .title .quote {
+        color: rgba(255, 43, 43, 0.288);
+        margin-top: 5px;
+    }
+
+    .title img {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    .footer p,
+    h4,
+    a {
+        margin-top: 50px;
+        text-align: center;
+        color: white;
+    }
+</style><script>((() => {
+    const origOpen = XMLHttpRequest.prototype.open;
+    XMLHttpRequest.prototype.open = function () {
+        this.addEventListener('load', function () {
+            if (this.getResponseHeader("ventryshield-rq") && this.getResponseHeader("ventryshield-rq") === "igcacnstr") {
+                window.location.reload();
+            }
+        });
+        origOpen.apply(this, arguments);
+    };
+}))();</script><script>const {fetch: originalFetch} = window;
+window.fetch = async (...args) => {
+    let [resource, config] = args;
+    const response = await originalFetch(resource, config);
+    if (response.headers.get("ventryshield-rq") && response.headers.get("ventryshield-rq") === "igcacnstr") {
+        window.location.reload();
+    }
+    return response;
+};</script></head>
+
+<body>
+<div class="title">
+<h1 class="owner">government.cool is another domain used by fedgov.lol Biolink Service.</h1>
+<div class="footer">
+<h4>Go to fedgov.lol Biolink Service to create a Biolink Profile with this domain. <a href="https://fedgov.lol">fedgov.lol</a></h4>
+</div>
+</div>
+<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon="{&quot;rayId&quot;:&quot;79b49b25eb7232dc&quot;,&quot;token&quot;:&quot;033c33a962e74d16be982c1223e03590&quot;,&quot;version&quot;:&quot;2023.2.0&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
+
+<div>
+
+
+</div></body></html>
